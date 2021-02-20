@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Dr. Amani Jambhekar MD, MBA</title>
-    <link>http://amanijambhekar.md/categories/</link>
+    <link>https://amanijambhekar.md/categories/</link>
     <description>Recent content in Categories on Dr. Amani Jambhekar MD, MBA</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://amanijambhekar.md/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://amanijambhekar.md/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
