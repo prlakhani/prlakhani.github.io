@@ -1820,16 +1820,19 @@
 	}
 
 	header.major {
-		width: -moz-max-content;
+		/* removed because this causes titles to not wrap. why was it ever here? */
+		/* width: -moz-max-content;
 		width: -webkit-max-content;
 		width: -ms-max-content;
-		width: max-content;
+		width: max-content; */
+		width: auto;
 		margin-bottom: 2em;
 	}
 
 		header.major > :first-child {
 			margin-bottom: 0;
-			width: calc(100% + 0.5em);
+			/* width: calc(100% + 0.5em); */
+			width: 100%;
 		}
 
 			header.major > :first-child:after {
