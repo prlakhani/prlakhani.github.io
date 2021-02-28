@@ -3304,7 +3304,8 @@
 			-webkit-align-items: center;
 			-ms-align-items: center;
 			align-items: center;
-			padding: 2em 3em 0.1em 3em ;
+			padding: 2em 3em 0.1em 3em;
+			width: 100%;
 		}
 
 			.spotlights2 > section.campaigns > section.campaign > .content > .inner {
