@@ -3087,6 +3087,283 @@
 
 		}
 
+/* Spotlights2 */
+
+.spotlights2 {
+	border-top: 0 !important;
+	/* width: 100%; */
+}
+
+	.spotlights2 + * {
+		border-top: 0 !important;
+	}
+
+	/* Projects sections */
+
+	.spotlights2 > section.projects {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-moz-flex-direction: row;
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+	}
+
+	.spotlights2 > section.projects > section.project {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-direction: row;
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		background-color: #2e3450;
+	}
+
+		.spotlights2 > section.projects > section.project > .image {
+			background-position: center center;
+			background-size: cover;
+			border-radius: 0;
+			display: block;
+			position: relative;
+			width: 30%;
+		}
+
+			.spotlights2 > section.projects > section.project > .image img {
+				border-radius: 0;
+				display: block;
+				width: 100%;
+			}
+
+			.spotlights2 > section.projects > section.project > .image:before {
+				background: rgba(36, 41, 67, 0.9);
+				content: '';
+				display: block;
+				/* height: 100%; */
+				left: 0;
+				opacity: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+			}
+
+		.spotlights2 > section.projects > section.project > .content {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			-moz-flex-direction: column;
+			-webkit-flex-direction: column;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			-moz-align-items: center;
+			-webkit-align-items: center;
+			-ms-align-items: center;
+			align-items: center;
+			padding: 2em 3em 0.1em 3em ;
+			width: 70%;
+		}
+
+			.spotlights2 > section.projects > section.project > .content > .inner {
+				margin: 0 auto;
+				max-width: 100%;
+				/* width: 65em; */
+			}
+
+		.spotlights2 > section.projects > section.project:nth-child(2n) {
+			-moz-flex-direction: row-reverse;
+			-webkit-flex-direction: row-reverse;
+			-ms-flex-direction: row-reverse;
+			flex-direction: row-reverse;
+			background-color: #333856;
+		}
+
+			.spotlights2 > section.projects > section.project:nth-child(2n) > .content {
+				-moz-align-items: -moz-flex-end;
+				-webkit-align-items: -webkit-flex-end;
+				-ms-align-items: -ms-flex-end;
+				align-items: flex-end;
+			}
+
+	@media screen and (max-width: 1680px) {
+
+		.spotlights2 > section.projects > section.project > .image {
+			width: 40%;
+		}
+
+		.spotlights2 > section.projects > section.project > .content {
+			width: 60%;
+		}
+
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		.spotlights2 > section.projects > section.project > .image {
+			width: 45%;
+		}
+
+		.spotlights2 > section.projects > section.project > .content {
+			width: 55%;
+		}
+
+	}
+
+	@media screen and (max-width: 980px) {
+
+		.spotlights2 > section.projects > section.project {
+			display: block;
+			margin: 1.5%;
+		}
+
+			.spotlights2 > section.projects > section.project > .image {
+				max-width: 100%;
+			}
+
+			.spotlights2 > section.projects > section.project > .content {
+				padding: 4em 3em 2em 3em ;
+				max-width: 100%;
+			}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.spotlights2 > section.projects > section.project {
+			display: block;
+			margin: 1.5%;
+		}
+
+			.spotlights2 > section.projects > section.project > .image {
+				width: 100%;
+			}
+
+			.spotlights2 > section.projects > section.project > .content {
+				padding: 3em 1.5em 1em 1.5em ;
+				width: 100%;
+			}
+
+	}
+	
+	/* Campaign sections */
+
+	.spotlights2 > section.campaigns {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-moz-flex-direction: row;
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+	}
+
+	.spotlights2 > section.campaigns > section.campaign {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-direction: row;
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		background-color: #2e3450;
+		width: 30%;
+		margin: 1.5%
+	}
+
+		.spotlights2 > section.campaigns > section.campaign > .content {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			-moz-flex-direction: column;
+			-webkit-flex-direction: column;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			-moz-align-items: center;
+			-webkit-align-items: center;
+			-ms-align-items: center;
+			align-items: center;
+			padding: 2em 3em 0.1em 3em ;
+		}
+
+			.spotlights2 > section.campaigns > section.campaign > .content > .inner {
+				margin: 0 auto;
+				max-width: 100%;
+				width: 100%;
+			}
+
+			.spotlights2 > section.campaigns > section.campaign:nth-child(2n) > .content {
+				-moz-align-items: -moz-flex-end;
+				-webkit-align-items: -webkit-flex-end;
+				-ms-align-items: -ms-flex-end;
+				align-items: flex-end;
+			}
+
+	@media screen and (max-width: 1680px) {
+
+		.spotlights2 > section.campaigns > section.campaign > {
+			width: 30%;
+		}
+
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		.spotlights2 > section.campaigns > section.campaign > {
+			width: 30%;
+		}
+
+	}
+
+	@media screen and (max-width: 980px) {
+
+		.spotlights2 > section.campaigns > section.campaign {
+			display: block;
+			width: 50%;
+		}
+
+			.spotlights2 > section.campaigns > section.campaign > .content {
+				padding: 4em 3em 2em 3em ;
+				
+			}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.spotlights2 > section.campaigns > section.campaign {
+			display: block;
+			width: 100%;
+		}
+
+		.spotlights2 > section.campaigns > section.campaign > .content {
+			padding: 3em 1.5em 1em 1.5em ;
+
+		}
+
+	}	
+
 /* Header */
 
 	@-moz-keyframes reveal-header {
