@@ -2238,11 +2238,11 @@
 		.image.main {
 			display: block;
 			margin: 2.5em 0;
-			width: 100%;
+			width: 100%; /* should be unnecessary with display block, but keeping it */
 		}
 
 			.image.main img {
-				width: 30%;
+				width: 30%; /* TODO: consider changing this to a max-height % limit */
 				margin: auto;
 			}
 
@@ -3372,6 +3372,119 @@
 		}
 
 	}	
+
+	/* Press sections */
+
+	.spotlights2 > section.press-container {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-moz-flex-direction: row;
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		width: 100%;
+	}
+
+	.spotlights2 > section.press-container > section.press {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-direction: row;
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		background-color: #2e3450;
+		width: 23.5%;
+		margin: 1.5%;
+	}
+
+		.spotlights2 > section.press-container > section.press > .image {
+			background-position: center center;
+			background-size: cover;
+			border-radius: 0;
+			display: block;
+			position: relative;
+			width: 100%;
+		}
+
+			.spotlights2 > section.press-container > section.press > .image img {
+				border-radius: 0;
+				display: block;
+				width: 100%;
+			}
+
+			.spotlights2 > section.press-container > section.press > .image:before {
+				background: rgba(36, 41, 67, 0.9);
+				content: '';
+				display: block;
+				/* height: 100%; */
+				left: 0;
+				opacity: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+			}
+
+		.spotlights2 > section.press-container > section.press > .content {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			-moz-flex-direction: column;
+			-webkit-flex-direction: column;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			-moz-align-items: center;
+			-webkit-align-items: center;
+			-ms-align-items: center;
+			align-items: center;
+			padding: 2em 3em 0.1em 3em ;
+			width: 100%;
+		}
+
+			.spotlights2 > section.press-container > section.press > .content > .inner {
+				margin: 0 auto;
+				max-width: 100%;
+				/* width: 65em; */
+			}
+
+	@media screen and (max-width: 1680px) {
+
+		.spotlights2 > section.press-container > section.press {
+			width: 23.5%;
+			margin: 1.5%;
+		}
+
+	}
+
+	@media screen and (max-width: 980px) {
+
+		.spotlights2 > section.press-container > section.press {
+			width: 30%;
+			margin: 1.5%;
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.spotlights2 > section.press-container > section.press {
+			width: 48.5%;
+			margin: 1.5%;
+		}
+
+	}
 
 /* Header */
 
