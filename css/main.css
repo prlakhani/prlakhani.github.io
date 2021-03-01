@@ -2242,13 +2242,19 @@
 		}
 
 			.image.main img {
-				width: 100%;
+				width: 30%;
+				margin: auto;
 			}
 
 			@media screen and (max-width: 736px) {
 
 				.image.main {
 					margin: 1.5em 0;
+				}
+
+				.image.main img {
+					width: 100%;
+					margin: auto;
 				}
 
 			}
@@ -3113,6 +3119,7 @@
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
 		flex-direction: row;
+		width: 100%;
 	}
 
 	.spotlights2 > section.projects > section.project {
@@ -3125,6 +3132,7 @@
 		-ms-flex-direction: row;
 		flex-direction: row;
 		background-color: #2e3450;
+		width: 100%;
 	}
 
 		.spotlights2 > section.projects > section.project > .image {
