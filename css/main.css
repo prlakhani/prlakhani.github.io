@@ -3401,9 +3401,17 @@
 		-ms-flex-direction: row;
 		flex-direction: row;
 		background-color: #2e3450;
-		width: 23.5%;
-		margin: 1.5%;
+		/* width: 23.5%;
+		margin: 1.5%; */
 	}
+		.spotlights2 > section.press-container > section.press > .icon {
+			background-position: center center;
+			background-size: cover;
+			border-radius: 0;
+			display: block;
+			position: relative;
+			width: 100%;
+		}
 
 		.spotlights2 > section.press-container > section.press > .image {
 			background-position: center center;
@@ -3449,7 +3457,7 @@
 			-webkit-align-items: center;
 			-ms-align-items: center;
 			align-items: center;
-			padding: 2em 3em 0.1em 3em ;
+			/* padding: 2em 3em 0.1em 3em ; */
 			width: 100%;
 		}
 
@@ -3462,7 +3470,7 @@
 	@media screen and (max-width: 1680px) {
 
 		.spotlights2 > section.press-container > section.press {
-			width: 23.5%;
+			width: 22%;
 			margin: 1.5%;
 		}
 
@@ -3480,7 +3488,7 @@
 	@media screen and (max-width: 736px) {
 
 		.spotlights2 > section.press-container > section.press {
-			width: 48.5%;
+			width: 47%;
 			margin: 1.5%;
 		}
 
